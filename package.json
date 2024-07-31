@@ -5,7 +5,8 @@
 	"scripts": {
 		"dev": "tsx --watch src/server.ts",
 		"biome": "npx @biomejs/biome check --write src/",
-		"knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js"
+		"knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
+		"tests": "vitest"
 	},
 	"keywords": [],
 	"author": "",
@@ -16,7 +17,8 @@
 		"@types/node": "^20.14.12",
 		"husky": "^9.1.4",
 		"tsx": "^4.16.2",
-		"typescript": "^5.5.4"
+		"typescript": "^5.5.4",
+		"vitest": "^2.0.5"
 	},
 	"dependencies": {
 		"@fastify/cookie": "^9.3.1",
