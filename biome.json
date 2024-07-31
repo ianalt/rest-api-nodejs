@@ -14,7 +14,7 @@
 			"unsafeParameterDecoratorsEnabled": true
 		},
 		"formatter": {
-			"semicolons": "asNeeded",
+			"semicolons": "always",
 			"quoteStyle": "single"
 		}
 	}

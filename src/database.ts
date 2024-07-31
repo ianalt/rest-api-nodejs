@@ -1,6 +1,6 @@
-import 'dotenv/config'
-import { type Knex, knex as setupKnex } from 'knex'
-import { env } from './env'
+import 'dotenv/config';
+import { type Knex, knex as setupKnex } from 'knex';
+import { env } from './env';
 
 export const knexConfig: Knex.Config = {
 	client: env.DATABASE_CLIENT,
@@ -12,6 +12,6 @@ export const knexConfig: Knex.Config = {
 		extension: 'ts',
 		directory: './db/migrations',
 	},
-}
+};
 
-export const knex = setupKnex(knexConfig)
+export const knex = setupKnex(knexConfig);
