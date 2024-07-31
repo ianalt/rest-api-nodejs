@@ -8,7 +8,7 @@
 # RN
 
 - [X] Transaction can be of type credit, which will sum up to the current total, or debit, which will subtract from it;
-- [ ] It should be able to identify the users during requests;
-- [ ] Users can only view their own transactions;
+- [X] It should be able to identify the users during requests;
+- [X] Users can only view their own transactions;
 
 # RNF
