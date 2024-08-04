@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "tsx --watch src/server.ts",
-		"biome": "npx @biomejs/biome check --write src/",
+		"biome": "npx @biomejs/biome check --write ./src",
 		"knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
 		"tests": "vitest"
 	},
@@ -16,12 +16,14 @@
 		"@biomejs/biome": "^1.8.3",
 		"@types/node": "^20.14.12",
 		"husky": "^9.1.4",
+		"supertest": "^7.0.0",
 		"tsx": "^4.16.2",
 		"typescript": "^5.5.4",
 		"vitest": "^2.0.5"
 	},
 	"dependencies": {
 		"@fastify/cookie": "^9.3.1",
+		"@types/supertest": "^6.0.2",
 		"dotenv": "^16.4.5",
 		"fastify": "^4.28.1",
 		"knex": "^3.1.0",
